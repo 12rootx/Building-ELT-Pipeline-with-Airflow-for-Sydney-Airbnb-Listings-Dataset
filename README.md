@@ -1,6 +1,10 @@
 ## Building ELT Pipeline with Airflow for Sydney Airbnb Listings Dataset
 ### Project Objective
-This project aims to build an end-to-end Extraction, Loading, and Transformation (ELT) pipeline for the Sydney Airbnb listings dataset. Using Apache Airflow for orchestration and scheduling tasks, dbt (Data Build Tool) will handle data transformations, creating a Medallion architecture in a PostgreSQL-based data warehouse. The project also includes business analysis, generating insights into Sydney’s Airbnb market.
+This project aims to build an end-to-end Extraction, Loading, and Transformation (ELT) pipeline for the Sydney Airbnb listings dataset. Using Apache Airflow for orchestration and scheduling tasks, dbt (Data Build Tool) will handle data transformations, creating a Medallion architecture in a GCP PostgreSQL-based data warehouse. The project also includes business analysis, generating insights into Sydney’s Airbnb market.
+
+### Workflow:
+<img width="775" height="366" alt="image" src="https://github.com/user-attachments/assets/eac4067b-2367-4f0e-9460-bb5bc27bf0a2" />
+
 
 ### Analysis Procedures:
 #### Setup (Part 0):
